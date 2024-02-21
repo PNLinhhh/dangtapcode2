@@ -1,0 +1,8 @@
+.demo,
+p,
+#id1 {
+  color: red;
+}
+.demo.demo2{
+    color: blue;
+}
