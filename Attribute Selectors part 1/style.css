@@ -1,8 +1,15 @@
-p[href]{
+[title~="tuhoc.cc"]{
     color: red;
 }
-
-/* tác động chính xác */
-[target="_blank"]{
+[title*="tuhoc.cc"]{
+    color: pink;
+}
+[title|="pic"]{
+    color: red;
+}
+[title^="pic"]{
     color: green;
+}
+[title$="c"]{
+    color: black;
 }
