@@ -1,0 +1,8 @@
+p[href]{
+    color: red;
+}
+
+/* tác động chính xác */
+[target="_blank"]{
+    color: green;
+}
