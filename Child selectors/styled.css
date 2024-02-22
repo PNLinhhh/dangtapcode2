@@ -1,0 +1,25 @@
+/* phần tử con đầu tiên */
+/* p:first-child{
+    color: red;
+} */
+/* phần tử con cuối cùng */
+/* p:last-child{
+    color: blue;
+}    */
+/* thẻ con thứ n từ trên xuống*/
+/* p:nth-child(3){
+    color: pink;
+} */
+/* even: số chắn, odd: số lẻ */
+/* p:nth-child(odd){
+    color: red;
+    font-size: 20px;
+} */
+/* thẻ con thứ n từ dưới lên */
+/* p:nth-last-child(2){
+    color: red;
+} */
+/* thẻ con duy nhất */
+p:only-child{
+    color: blue;
+}
