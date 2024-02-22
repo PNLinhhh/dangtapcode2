@@ -1,0 +1,13 @@
+/* di chuột qua
+#line2:hover{
+    color: red;
+    font-size: 30px;
+}
+.dichuot:hover{
+    color: blue;
+} */
+/* click và giữ
+.dichuot:active{
+    color: red
+    ;
+} */
