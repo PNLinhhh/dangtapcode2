@@ -11,3 +11,11 @@
     color: red
     ;
 } */
+/* khi truy cập vào
+.clickme:link{
+    color: chocolate;
+} */
+/* khi chưa truy cập
+.clickme:visited{
+    color: red;
+} */
