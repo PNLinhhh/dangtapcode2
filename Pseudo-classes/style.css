@@ -11,11 +11,21 @@
     color: red
     ;
 } */
-/* khi truy cập vào
+/* khi chưa truy cập vào
 .clickme:link{
     color: chocolate;
 } */
-/* khi chưa truy cập
+/* khi đã truy cập
 .clickme:visited{
     color: red;
 } */
+/* thẻ k có nội dung */
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+/* chọn thẻ có id khi trên url có hash tương ứng */
+h2:target {
+  color: blue;
+}
