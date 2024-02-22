@@ -1,0 +1,18 @@
+/* bộ chọn chung: yếu nhất */
+*{
+    color: red ;
+}
+/* element selector  */
+h1{
+    color: blue;
+}
+/* class - pseudo class */
+.demo{
+    color: green;
+}
+
+/* id */
+#theh1{
+    color: yellow;
+}
+/* !important để ở đâu ở đấy mạnh nhất */
