@@ -1,0 +1,10 @@
+.box_cha {
+  background-color: pink;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.box_con {
+  background-color: blue;
+  width: 50%;
+}
