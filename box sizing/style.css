@@ -1,0 +1,12 @@
+.box {
+  width: 100px;
+  height: 150px;
+  padding: 20px;
+  border: 10px solid red;
+  box-sizing: content-box;
+  /* ảnh hưởng đến kích thước */
+}
+.box2 {
+  box-sizing: border-box;
+  /* k ảnh hưởng kích thước */
+}
