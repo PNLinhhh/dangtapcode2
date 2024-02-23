@@ -11,4 +11,16 @@ div {
   padding: 20px 30px 40px;
   /* trên- phải-dưới-trái */
   padding: 20px 30px 40px 50px;
+  /* viền border */
+  border: 20px solid blue;
+  /* border-width: 10px 20px 30px 40px;
+  border-style: groove solid dashed double;
+  border-color: blue yellow pink green; */
+  /* border-radius: 30px; */
+  /* ghi tường minh */
+  /* bo góc trên trái */
+  /* border-top-left-radius: 20px; */
+  /* bo góc dưới phải */
+  /* border-bottom-right-radius: 30px; */
+  border-radius: 30px 60px 90px 120px;
 }
