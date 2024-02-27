@@ -1,0 +1,15 @@
+.box {
+  width: 150px;
+  height: 200px;
+  border: 5px solid blue;
+  background-image: url(../bg/anh3.jpg);
+  background-position: left;
+  background-position: center;
+  background-position: -50% 40%;
+  background-repeat: no-repeat;
+  background-position: 50px 50px;
+}
+img {
+  width: 60%;
+  margin-top: 50px;
+}
