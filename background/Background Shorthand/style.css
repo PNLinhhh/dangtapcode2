@@ -1,0 +1,49 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 50px dotted rgb(75, 42, 42);
+  padding: 50px;
+  /* background-color: cyan; */
+  /* background-image: url(./img/1.PNG); */
+  /* background-position: vị trí bắt đầu đặt ảnh; */
+  /* background-position: top right;
+  background-position: top left;
+  background-position: bottom left;
+  background-position: bottom right;
+  background-position: left;
+  background-position: right;
+  background-position: top;
+  background-position: bottom;
+  background-position: center; */
+  /* background-position: đơn vị %; */
+  /* background-position: 0 100%; */
+  /* background-position: đơn vị tuyệt đối; */
+  /* background-position: 0 100px; */
+  /* background-size: mặc định hiện thị theo tỉ lệ 1-1; còn thừa thì lặp lại */
+  /* background-size: contain; */
+  /* giãn bức ảnh, phần thừa thì cắt bớt */
+  /* background-size: cover; */
+  /* lặp lại */
+  /* background-repeat: repeat; */
+  /* k lặp lại */
+  /* background-repeat: no-repeat; */
+  /*background-origin: xác định gốc bức ảnh đặt vị trí nào; */
+  /* background-origin: padding-box; */
+  /* background-origin: border-box; */
+  /* background-origin: content-box; */
+  /* background-clip: xác định nền đổ từ vùng nào; */
+  /* background-clip: border-box; */
+  /* ảnh từ padding hất vào trong; */
+  /* background-clip: padding-box; */
+  /* ảnh đổ từ phần content: ; */
+  /* background-clip: content-box; */
+  background: red;
+  background: red url(./img/1.PNG);
+  background: red url(./img/1.PNG) left;
+  background: red url(./img/1.PNG) left / cover;
+  background: red url(./img/1.PNG) left / cover no-repeat;
+  background: red url(./img/1.PNG) left / cover no-repeat padding-box;
+  background: red url(./img/1.PNG) left / cover no-repeat padding-box border-box;
+  background: red url(./img/1.PNG) left / cover no-repeat padding-box border-box
+    fixed;
+}
