@@ -1,0 +1,19 @@
+.box {
+  height: 200px;
+  background-image: url(./img/anh3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  /* nền đứng yên k bị cuốn theo */
+}
+.test_local {
+  margin: 10px;
+  height: 200px;
+  width: 70%;
+  overflow: auto;
+  background-image: url(./img/anh3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  /* nền bị cuốn theo */
+}
