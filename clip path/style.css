@@ -1,0 +1,11 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: url(./img/ava.png) center / cover;
+  /* clip-path: circle(50%); */
+  clip-path: inset(20px 30px 40px 50px);
+  clip-path: inset(20px round 30px 40px 50px);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  border-radius: 15px;
+}
