@@ -1,0 +1,18 @@
+.box {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.box2 {
+  background-image: linear-gradient(red, blue);
+}
+.box3 {
+  width: 100px;
+  height: 200px;
+  background-image: linear-gradient(to left, red, green);
+}
+.box1 {
+  width: 100px;
+  height: 200px;
+  background-color: red; /* màu dự phòng nếu trình duyệt k hỗ trợ */
+  background-image: linear-gradient(to left, red 20%, green);
+}
