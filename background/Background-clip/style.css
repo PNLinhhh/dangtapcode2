@@ -1,0 +1,21 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/1.PNG);
+  border: 50px dotted red;
+  padding: 50px;
+  background-clip: border-box;
+  background-clip: padding-box;
+  background-clip: content-box;
+}
+.texthl {
+  color: aqua;
+}
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .texthl {
+    color: transparent;
+    background-color: rgba(162, 33, 153, 0.734);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}
