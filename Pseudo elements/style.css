@@ -1,0 +1,33 @@
+/* dòng đầu tiên của thẻ p */
+p::first-line {
+  color: red;
+}
+/* ::first-line chỉ có tác dụng với block và inline-block */
+span {
+  display: block;
+}
+span::first-line {
+  color: blue;
+}
+/* chữ đầu tiên */
+p::first-letter {
+  color: pink;
+  font-size: 40px;
+}
+/* vùng bôi đen  */
+p::selection {
+  background-color: brown;
+  color: white;
+}
+/* chọn các điểm đánh dấu thứ tự */
+li::marker {
+  color: blue;
+  font-size: 40px;
+}
+/* thêm đằng trc hoặc đằng sau class */
+.box::before {
+  content: "thêm đằng trc";
+}
+.box::after {
+  content: "thêm đằng sau";
+}
