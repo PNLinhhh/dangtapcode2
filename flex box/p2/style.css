@@ -1,0 +1,19 @@
+* {
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: cyan;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+}
+
+.box {
+  background: blue;
+}
