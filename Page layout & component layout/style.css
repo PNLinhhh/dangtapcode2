@@ -1,0 +1,15 @@
+.pic1 {
+  width: 100px;
+  height: 200px;
+  float: right;
+}
+
+.pic2 {
+  width: 100px;
+  height: 200px;
+  float: left;
+}
+
+p:last-child {
+  clear: both;
+}
