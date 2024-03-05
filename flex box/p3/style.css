@@ -1,0 +1,29 @@
+* {
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  height: 300px;
+  display: flex;
+  background: cyan;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  /* align-items: start; */
+  /* align-items: end; */
+  /* align-items: center; */
+  align-items: baseline;
+}
+
+.box {
+  background: blue;
+}
+
+.box1 {
+  height: 200px;
+  font-size: 3rem;
+}
