@@ -1,0 +1,20 @@
+.container {
+  height: 400px;
+  display: flex;
+  background-color: cyan;
+  /* xuống hàng */
+  flex-wrap: wrap;
+  /* xuống hàng+đảo ngc */
+  /* flex-wrap: wrap-reverse; */
+  /* align-content: start; */
+  /* align-content: end; */
+  /* align-content: center; */
+  /* align-content: space-around; */
+  align-content: space-between;
+}
+
+.box {
+  width: 30%;
+  background-color: blue;
+  border: 2px solid #000;
+}
