@@ -1,0 +1,30 @@
+/* .container {
+  height: 150px;
+  display: flex;
+  background-color: cyan;
+  align-items: flex-start;
+}
+
+.box {
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.box2{
+    align-self: center;
+} */
+.container {
+  height: 150px;
+  display: flex;
+  background-color: cyan;
+}
+
+.box {
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.box2,
+.box3 {
+  flex-grow: 1;
+}
